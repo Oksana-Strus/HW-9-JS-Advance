@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        List of prohibited words:
+    </div>
+    <hr style="margin: 0; background-color: rgb(36, 36, 36);">
+    <div class="container">
+
+        <div class="col col-8 semi-header">
+            <div class="col col-5">
+                <div id="text-msg-bad-words">
+                    <span id="bad-words-black">Bad words:</span>
+                    <span id="bad-words-red"></span>
+                </div>
+            </div>
+            <div class="input-group ">
+                <input type="text" class="form-control" placeholder="word here..." aria-label="Username" id="inputField"
+                    aria-describedby="basic-addon1">
+                <button type="button" id="addBtn" class="btn btn-warning btn-lg">Add</button>
+                <button type="button" id="resetBtn" class="btn btn-danger btn-lg">Reset</button>
+            </div>
+            <div class="input-group">
+                <textarea class="form-control text-area" name="" placeholder="text here..." id="text-area" cols="30"
+                    rows="7"></textarea>
+            </div>
+            <div class="input-group mt-2 d-grid gap-2">
+                <button type="button" id="cenzorBtn" class="btn btn-success">Cenzor</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

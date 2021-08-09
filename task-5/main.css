@@ -1,0 +1,57 @@
+.header {
+    background-color: rgb(233, 234, 235);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bad-words-red{
+color: red;
+}
+
+
+#text-msg-bad-words {
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#resetBtn {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#addBtn {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#inputField {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.semi-header {
+    background-color: rgb(233, 234, 235);
+    padding: 20px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+
+.red {
+    color: hotpink;
+    font-size: 90px;
+}
